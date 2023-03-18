@@ -10,8 +10,8 @@ const FOOD_COLOR: Color = [0.8, 0.0, 0.0, 1.0];
 const BORDER_COLOR: Color = [0.0, 0.0, 0.0, 1.0];
 const GAMEOVER_COLOR: Color = [0.8, 0.0, 0.0, 0.5];
 
-const MOVEING_PERIOD: f64 = 0.5;
-const RESTART_TIME: f64 = 1.0;
+const MOVEING_PERIOD: f64 = 0.3;
+const RESTART_TIME: f64 = 2.0;
 
 pub struct Game {
     snake: Snake,
