@@ -35,4 +35,6 @@ fn main() {
 
         event.update(|arg| game.update(arg.dt));
     }
+
+    std::process::exit(0);
 }
